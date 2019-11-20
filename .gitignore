@@ -1,0 +1,14 @@
+.ipynb_checkpoints
+**/*.ipynb_checkpoints
+**/__pycache__/
+**/*.json
+**/*.csv
+**/*.img
+**/*.jpg
+**/*.png
+**/*.JPG
+**/*.PNG
+**/*.jpeg
+**/*.pdf
+
+z*/
