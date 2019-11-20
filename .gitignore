@@ -14,5 +14,7 @@
 **/*.zip
 **/*.db
 **/*ubyte
-
+**/*.data
+**/*.docx
+**/*.xlsx
 z*/
