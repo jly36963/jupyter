@@ -10,5 +10,9 @@
 **/*.PNG
 **/*.jpeg
 **/*.pdf
+**/*.mat
+**/*.zip
+**/*.db
+**/*ubyte
 
 z*/
