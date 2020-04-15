@@ -19,3 +19,4 @@
 **/*.docx
 **/*.xlsx
 z*/
+**/node_modules
