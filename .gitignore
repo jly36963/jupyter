@@ -18,5 +18,5 @@
 **/*.data
 **/*.docx
 **/*.xlsx
-z*/
+zzz*/
 **/node_modules
