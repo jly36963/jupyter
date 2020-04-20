@@ -1,0 +1,55 @@
+version: '3'
+services:
+  redis:
+    build:
+      context: ./redis
+      dockerfile: Dockerfile
+    ports:
+      - "6379:6379"
+    volumes:
+      - redisdata_jupyter:/etc/redis
+
+volumes:
+  redisdata_jupyter:
+    external: true
+
+#   pg_jupyter:
+#     container_name: pg_jupyter
+#     build:
+#       context: ./postgres
+#       dockerfile: Dockerfile
+#     ports: 
+#       - "5432:5432"
+#     environment:
+#       POSTGRES_USER: 'postgres'
+#       POSTGRES_PASSWORD: 'postgres'
+#       POSTGRES_DB: 'db1'
+#     volumes:
+#       # - ./postgres:/postgres
+#       - pgdata_jupyter:/var/lib/postgresql/data
+#     restart: always
+
+#   mongo_jupyter:
+#     container_name: mongo_jupyter
+#     build:
+#       context: ./mongodb
+#       dockerfile: Dockerfile 
+#     ports:
+#       - "27017:27017"
+#     environment:
+#       MONGO_INITDB_ROOT_USERNAME: root
+#       MONGO_INITDB_ROOT_PASSWORD: example
+#       # MONGO_INITDB_DATABASE: db1
+#     volumes:
+#       - mongodata_jupyter:/data/db
+#     restart: always
+
+    
+# volumes:
+#   mongodata_jupyter:
+#     external: true
+#   pgdata_jupyter:
+#     external: true
+
+
+# connection -- mongodb -- mongodb://root:example@localhost:27017/
