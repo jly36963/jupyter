@@ -1,6 +1,12 @@
+# jupyter
 .ipynb_checkpoints
 **/*.ipynb_checkpoints
 **/__pycache__/
+
+# nodejs
+**/node_modules
+
+# data
 **/data/
 **/*.json
 **/*.csv
@@ -18,5 +24,6 @@
 **/*.data
 **/*.docx
 **/*.xlsx
+
+# unnecessary
 zzz*/
-**/node_modules
