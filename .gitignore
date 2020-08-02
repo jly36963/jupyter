@@ -24,6 +24,7 @@
 **/*.data
 **/*.docx
 **/*.xlsx
+!**/package.json
 
 # unnecessary
 zzz*/
