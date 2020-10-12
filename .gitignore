@@ -27,4 +27,5 @@
 !**/package.json
 
 # unnecessary
+**/.DS_Store
 zzz*/
